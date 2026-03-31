@@ -7,7 +7,7 @@ from scipy.stats import gaussian_kde
 import scipy.io
 from JS_divergence import compute_jsd
 
-loaded_object = scipy.io.loadmat('sinr_nonscheduled')
+loaded_object = scipy.io.loadmat('sinr_dataset')
 sinr_map = loaded_object['sinr_map']
 
 # Define the generator
